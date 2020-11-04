@@ -1,0 +1,119 @@
+@-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+.navbar-brand {
+    margin-left: 10%;
+}
+.nav {
+    margin-right: 10%;
+    font-size: 1.2rem;
+}
+.nav-item {
+    opacity:0.5;
+}
+.nav-item:hover {
+    opacity:1;
+}
+.baner {
+    background: #000000;
+}
+.baner .img-responsive{
+    display: inline-table;
+    opacity: .1;
+    vertical-align: middle;
+}
+.centered {
+  position: absolute;
+  width:100%;
+  height:100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 20%;
+}
+.slogan {
+	        display: flex;
+	        margin-top: 1%;
+	        justify-content: center;
+	        -webkit-animation: track3s cubic-bezier(3s, 0610, 0.355, 1.000) both;
+	        animation: track3s cubic-bezier(3s, 0610, 0.355, 1.000) both;
+}
+.content {
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.bar {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.gloves {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.h-65 {
+    height:65%
+}
+.bar1 {
+    margin-top: 1.2%;
+}
+.bg {
+    margin-top: 1.2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom:1%;
+}
+.bg img{
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  height: 400px;
+}
+.name {
+   display: inline-table;
+    opacity: .1;
+    vertical-align: middle;
+  bottom: 8px;
+  right: 16px;
+}
+
+.board {
+  height: 10vh;
+  width: 20vw;
+  background-color: teal;
+  border: 1px solid black;
+  font-size: 2.5em;
+  color: white;
+  top:0;
+}
